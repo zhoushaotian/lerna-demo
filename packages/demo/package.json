@@ -17,10 +17,10 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://npm.idcvdian.com/"
+    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "79813e37f3a3d098fa686e35e0e090ed4df1fb85"
+  "gitHead": "d14e0abaae40d5bac6762b916ceae8aa5591b28f"
 }
