@@ -1,5 +1,5 @@
 {
-  "name": "lerna-demo",
+  "name": "lerna-demo-zst",
   "version": "0.1.4",
   "description": "demo",
   "keywords": [
@@ -22,5 +22,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "1af8dcf800c60d8668ef3e76cf35d23bfe1d8e54"
+  "gitHead": "35258c85b0e6532b5b8493ea80ec860121877ae0"
 }
