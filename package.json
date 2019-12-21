@@ -2,6 +2,28 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.18.3"
+    "commitlint": "^8.2.0",
+    "husky": "^3.1.0",
+    "lerna": "^3.19.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lerna run lint && lint-staged",
+      "pre-push": "lerna run test-single"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "**/*": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
