@@ -1,6 +1,6 @@
 {
   "name": "lerna-demo-zst",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "demo",
   "keywords": [
     "demo"
@@ -24,6 +24,6 @@
   },
   "gitHead": "fa241f8c8aafbe2abade0b1bfdca53ecd0e498f1",
   "dependencies": {
-    "lerna-demo1-zst": "^1.0.1"
+    "lerna-demo1-zst": "^1.0.2"
   }
 }
