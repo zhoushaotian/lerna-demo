@@ -22,5 +22,8 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "fa241f8c8aafbe2abade0b1bfdca53ecd0e498f1"
+  "gitHead": "fa241f8c8aafbe2abade0b1bfdca53ecd0e498f1",
+  "dependencies": {
+    "lerna-demo1-zst": "^1.0.0"
+  }
 }
